@@ -66,4 +66,44 @@ const home = {
  console.log(treino.repetir)
  console.log(treino.praticar)
  console.log(treino.procrastinar)
+
+ const virtualBox = {
+     os: 'linux',
+     v: 1.14,
+     tempoUso: '24 horas',
+     falta: 'criatividade'
+ }
+
+ console.log(virtualBox.falta)
+ console.log(virtualBox.v)
+
+ console.log(`Eu tenho uma const chamada virtual box, no qual o sistema operacional é ${virtualBox.os}.`)
+ console.log(`Meu nome é ${cliente.nome}, e eu tenho ${cliente.idade}.`)
  
+
+ const string = {
+     f1: 'Incrível como',
+     f2: 'Realmente',
+     n1: 2,
+     n3: 3
+     
+ }
+
+ console.log(`${string.f1} a mente do ser humano é extensa. ${string.f2}, a natureza é um mistério.`)
+
+ const data = {
+     comida: ['melão', 'banana', 'maçã', 'morango'],
+     bebida: ['agua', 'suco', 'refrigerante zero'],
+     sobremesa: [true, false],
+     contaStatus: ['conta paga', 'conta pendente']
+ }
+
+ console.log(`Eu gostaria de comer uma fatia de ${data.comida[0]}.
+            E em seguida, gostaria de tomar um ${data.bebida[2]}.`)
+ console.log(`Sobremesa, senhor?`)
+ console.log(`${data.sobremesa[1]}`)
+ console.log('Verifique se a consta está paga por gentileza')
+ console.log(`A conta está paga? 
+                loading...
+                            ...
+            ${data.contaStatus[0]}`)
